@@ -1,20 +1,6 @@
 <?php
-/**
- * Plugin Name: WP ERP - Installation Cleaner
- * Description: Remove tables, roles and options created by WP ERP plugin
- * Plugin URI: https://wperp.com
- * Author: weDevs
- * Author URI: https://wedevs.com
- * Version: 1.0
- * License: GPL2
- */
-
 
 require_once('./wp-load.php');
-
-
-
-
 global $wpdb;
 
 $options = [
